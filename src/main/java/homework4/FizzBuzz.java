@@ -1,4 +1,4 @@
-/*@აauthor ნინო კვესელაძე*/
+/*@author ნინო კვესელაძე*/
 package homework4;
 
 public class FizzBuzz {
