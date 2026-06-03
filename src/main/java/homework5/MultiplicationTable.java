@@ -1,3 +1,4 @@
+/*@author ნინო კვესელაძე*/
 package homework5;
 
 public class MultiplicationTable {
