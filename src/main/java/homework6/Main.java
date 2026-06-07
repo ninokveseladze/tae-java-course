@@ -25,6 +25,14 @@ public class Main {
 
         new Dog("Rex").makeSound();
 
+        //დავალება #5
+
+        Rectangle r = new Rectangle(4, 5);
+        System.out.println(r.area());
+
+        Circle n = new Circle(3);
+        System.out.println(n.area());
+
 
 
 
