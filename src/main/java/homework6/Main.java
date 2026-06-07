@@ -34,7 +34,8 @@ public class Main {
         System.out.println(n.area());
 
 
-
+        // დავალება #6
+        new Car("Toyota", 2020, 4).info();
 
     }
 
