@@ -3,7 +3,8 @@
 
 package homework6;
 
-public class Rectangle extends Shape {
+public class
+Rectangle extends Shape {
     public double width;
     public double height;
 
