@@ -36,7 +36,17 @@ public class Main {
 
         // დავალება #6
         new Car("Toyota", 2020, 4).info();
+        //დავალება #7
+        Calculator calc = new Calculator();
 
+        System.out.println(calc.calculate(7, 5, '+'));
+        System.out.println(calc.calculate(7, 0, '/'));
+
+        //დავალება #8
+
+        System.out.println(
+                new Student("ნინო", new int[]{77, 97, 87}).getStatus()
+        );
     }
 
 
