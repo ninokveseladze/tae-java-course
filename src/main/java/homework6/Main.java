@@ -21,6 +21,10 @@ public class Main {
         c.countTo(5);
         System.out.println(c.count);
 
+        //დავალება#4
+
+        new Dog("Rex").makeSound();
+
 
 
 
