@@ -13,5 +13,16 @@ public class Main {
         Dog d = new Dog("Rex");
         d.makeSound();
         d.sleep();
+
+        //დავალება #4
+        Drawable[] figures = {
+                new Square(),
+                new Triangle(),
+                new Star()
+        };
+
+        for (Drawable N : figures) {
+            N.draw();
+        }
     }
 }
