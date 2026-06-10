@@ -8,5 +8,10 @@ public class Main {
 
         Shape s2 = new Circle(3);
         System.out.println(s2.area());
+
+        //დავალება #2
+        Dog d = new Dog("Rex");
+        d.makeSound();
+        d.sleep();
     }
 }
