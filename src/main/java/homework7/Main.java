@@ -1,6 +1,8 @@
 /*Author-Nino Kveseladze*/
 package homework7;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main (String[] args){
         Shape s1 = new Rectangle(4, 5);
@@ -32,6 +34,28 @@ public class Main {
             System.out.println(N1);
             System.out.println(N2);
             System.out.println(N3);
+
+            //დავალება #6
+            new Car("Toyota").start();
+            new Bike("Trek").stop();
+
+
+            //დავალება #7
+
+            Person[] people = {
+                    new Person("ნინო", 30),
+                    new Person("მიშო", 28),
+                    new Person("რომა", 32),
+                    new Person("მაშო", 6)
+            };
+
+            Arrays.sort(people);
+
+            for (Person p : people) {
+                System.out.println(p);}
+
+
+
         }
     }
 }
