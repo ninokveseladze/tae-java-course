@@ -23,6 +23,15 @@ public class Main {
 
         for (Drawable N : figures) {
             N.draw();
+
+            //დავალება #5
+            Book N1 = new Book("Java Basics");
+            Book N2 = new Book("Java Basics", "Nino");
+            Book N3 = new Book("Java Basics", "Nino", 2025);
+
+            System.out.println(N1);
+            System.out.println(N2);
+            System.out.println(N3);
         }
     }
 }
