@@ -52,10 +52,20 @@ public class Main {
             Arrays.sort(people);
 
             for (Person p : people) {
-                System.out.println(p);}
+                System.out.println(p);
+            }
 
+            //დავალება #8
+            Employee[] team = {
+                    new FullTime("ნინო", 20000),
+                    new PartTime("მიშო", 250, 100)
+            };
 
+            for (Employee e : team) {
+                e.printInfo();
+                System.out.println("Salary: " + e.calculateSalary());
 
+            }
         }
     }
 }
