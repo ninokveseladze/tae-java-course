@@ -1,4 +1,4 @@
-/*Nino Kveseladze*/
+/*@ Author-Nino Kveseladze*/
 package homework9;
 
 import java.util.ArrayList;
